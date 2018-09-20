@@ -1,0 +1,11 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "description": "My code for CSE-3302 Programming Languages class",
+  "main": "zcg4385.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
