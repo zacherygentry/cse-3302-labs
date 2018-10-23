@@ -73,7 +73,7 @@ const cell = row('<tr>\n', '\n</tr>');
 console.log('\nHTML Table\n' + cell('<td>\n', '\n</td>', 'This is my cell in a row in a table!'));
 
 // 8.
-console.log("\nWelcome to the generic version of problem 3 and 4\n");
+console.log('\nWelcome to the generic version of problem 3 and 4\n');
 
 
 // Creates generic function to filter from range 0 - 100. Can choose to filter by even or odd AND a multiple of int
@@ -93,9 +93,9 @@ const rl = readline.createInterface({
 });
 
 // Utilizing node.js input from console to solve generic problem
-rl.question("Odd or even?\n", (answer) => {
-    const isOdd = answer.toLowerCase() == "odd" ? true : false;
-    rl.question("What multiple?\n", (answer) => {
+rl.question('Odd or even?\n', (answer) => {
+    const isOdd = answer.toLowerCase() == 'odd' ? true : false;
+    rl.question('What multiple?\n', (answer) => {
         const multipleOf = parseInt(answer);
         console.log('\nBonus: Generic ' + (isOdd ? 'odd' : 'even') + ' multiples of ' + multipleOf + '\n' + multiplesOf(isOdd, multipleOf));
         rl.close();
