@@ -28,11 +28,13 @@ def CalculateRPN(line):
             secondNum = numbers.pop()
             number = secondNum / firstNum
             numbers.append(number)
+        # Modulus operator
         elif character == "%":
             firstNum = numbers.pop()
             secondNum = numbers.pop()
             number = secondNum % firstNum
             numbers.append(number)
+        # Exponent operator
         elif character == "^":
             firstNum = numbers.pop()
             secondNum = numbers.pop()
